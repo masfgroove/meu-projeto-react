@@ -13,6 +13,8 @@ function NavBar() {
           <Nav.Link as={Link} to="/formulario">Formulário</Nav.Link>
           <Nav.Link as={Link} to="/tabela">Tabela</Nav.Link>
           <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link> {/* Link para a página Sobre */}
+          <Nav.Link href="https://github.com/masfgroove/meu-projeto-react/" target="_blank" rel="noopener noreferrer">GitHub</Nav.Link> {/* Link para o GitHub */}
+    
         </Nav>
       </Navbar.Collapse>
     </Navbar>
